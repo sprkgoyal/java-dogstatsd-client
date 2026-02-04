@@ -247,7 +247,7 @@ public interface StatsDClient extends Closeable {
     void increment(String aspect, double sampleRate, String... tags);
 
     /**
-     * Decrements the specified counter by one.
+     * Increments the specified counter by one.
      *
      * <p>This method is a DataDog extension, and may not work with other servers.
      *
